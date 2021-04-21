@@ -1,8 +1,8 @@
 # pip install pysnooper
-# import pysnooper
-# @pynsnooper.snoop()
 
+import pysnooper
 
+@pysnooper.snoop()
 def censor(text, word):
     while word in text:
         text = (
@@ -13,4 +13,4 @@ def censor(text, word):
     return text
 
 
-print(censor("blah blah blah", "andy"))
+print(censor("blah andy blah blah", "andy"))
