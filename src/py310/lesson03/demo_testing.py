@@ -7,4 +7,4 @@ def test_adder_simple_add():
 
 
 def test_adder_floats():
-    assert adder(1.1, 2.3) == 3.5
+    assert adder(1.1, 2.3) == 3.4

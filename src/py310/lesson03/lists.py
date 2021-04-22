@@ -27,3 +27,6 @@ assert names.index('jim') == 3
 assert names.index('andy') == 0
 assert 'fred' in names
 assert 'xxx' not in names
+
+assert "abc,3df,uuyyttr".split(',') == ['abc', '3df', 'uuyyttr']
+assert ''.join(['1', 'ddd', '888bb']) == '1ddd888bb'
