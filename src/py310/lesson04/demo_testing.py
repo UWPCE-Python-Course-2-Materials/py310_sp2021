@@ -1,10 +1,3 @@
-import a
-import b
-
-a.calculate()
-
-
-
 def adder(lhs, rhs):
     return lhs + rhs
 
