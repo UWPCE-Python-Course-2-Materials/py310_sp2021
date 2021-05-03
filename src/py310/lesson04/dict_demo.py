@@ -22,6 +22,15 @@ my_other_customers = [
      }
 ]
 
+mydict = {'ID': '01',
+     'Name': 'XYZ abc',
+     'Credit': 42.09
+}
+
+assert mydict['Credit'] == 42.09
+
+
+
 for customer in my_other_customers:
     print(customer['Name'])
 
@@ -35,8 +44,8 @@ for customer in my_other_customers:
     print(customer.values())
 
 for customer in my_other_customers:
-    for name, value in customer.items():
-        print(name, value)
+    for key, value in customer.items():
+        print(key, value)
 
 
 my_dict = {"Name": "Andy", "Job": "Tutor"}
@@ -73,7 +82,7 @@ my_new_dict = {}
 for key, value in my_dict.items():
     my_new_dict[value] = key
 
-assert my_new_dict == {"Andy": "Preferred_name", "Analyst": "Job"}
+assert my_new_dict == {"Analyst": "Job", "Andy": "Preferred_name"}
 
 people = [
     {"Name": "Andy", "Job": "Tutor"},
@@ -84,6 +93,12 @@ people = [
 better_people = {
     1: {"Name": "Andy", "Job": "Tutor"},
     2: {"Name": "Fred", "Job": "Analyst"},
+    3: {"Name": "Pam", "Job": "Nurse"},
+}
+
+better_people2 = {
+    'Andy': {"Name": "Andy", "Job": "Tutor"},
+    'Fred': {"Name": "Fred", "Job": "Analyst"},
     3: {"Name": "Pam", "Job": "Nurse"},
 }
 

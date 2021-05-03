@@ -8,7 +8,7 @@ def math_divide(numerator, denominator):
 
 
 assert math_divide(5, 2) == 2.5
-math_divide(4, 0)
+#math_divide(4, 0)
 
 
 def open_file(file_name):

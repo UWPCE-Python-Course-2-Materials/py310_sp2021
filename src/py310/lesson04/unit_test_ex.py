@@ -17,11 +17,11 @@ class Testing(unittest.TestCase):
 # pytest only needs from here...
 def test_string_pytest():
     a = 'some'
-    b = 'some'
+    b = 'someg'
     assert a == b
 
 
-def test_boolean(self):
+def test_boolean():
     a = True
     b = True
     assert a is b

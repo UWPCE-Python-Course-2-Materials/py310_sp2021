@@ -11,6 +11,7 @@ py310 = {editable = true, path = "."}
 [dev-packages]
 pytest = "*"
 pytest-cov = "*"
+pytest-bdd = "*"
 
 [requires]
 python_version = "3.9"
