@@ -5,6 +5,7 @@ if os.path.isfile('/home/andy/myfile.txt'):
 else:
     print("File does not exist")
 
+# ------
 
 filenames = [f'demo{n}.txt' for n in range(5)]
 for filename in filenames:

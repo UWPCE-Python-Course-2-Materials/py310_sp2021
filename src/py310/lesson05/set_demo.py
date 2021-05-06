@@ -26,7 +26,7 @@ def common_elems(a, b):
     return frozenset(a ^ b)
 
 
-def adds_to_k(a, k):
+def any_num_adds_to_k(a, k):
     for num in a:
         if k - num in a:
             return True
@@ -56,10 +56,10 @@ def set_stuff():
     for n in {1, 4, 5, 8, 99}:
         assert n in scenario4
 
-    scenario5 = adds_to_k({4, 7, 2, 11, 32, 5}, 11)
+    scenario5 = any_num_adds_to_k({4, 7, 2, 11, 32, 5}, 37)
     assert scenario5 is True
 
-    scenario5 = adds_to_k({4, 7, 2, 11, 32, 5}, 99)
+    scenario5 = any_num_adds_to_k({4, 7, 2, 11, 32, 5}, 999)
     assert scenario5 is False
 
 
