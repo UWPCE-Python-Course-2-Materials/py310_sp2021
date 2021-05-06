@@ -1,3 +1,10 @@
+
+
+names == ["andy", "sue", "pete"]
+for name in names:
+    name.capitalize()
+
+
 names = [name.capitalize() for name in ("andy", "sue", "pete")]
 assert names == ["Andy", "Sue", "Pete"]
 
