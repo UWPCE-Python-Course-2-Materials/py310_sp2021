@@ -1,6 +1,6 @@
 
 
-names == ["andy", "sue", "pete"]
+names = ["andy", "sue", "pete"]
 for name in names:
     name.capitalize()
 

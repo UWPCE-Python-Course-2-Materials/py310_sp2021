@@ -27,6 +27,7 @@ def arbitary_number(*names):
 
 assert arbitary_number('a', 'b', 'c', 'd') == 'abcd'
 
+
 def variable_note_order(name, age, *args, size="large", **kwargs):
     return f"{name=},{age=},{args=},{kwargs=}"
 

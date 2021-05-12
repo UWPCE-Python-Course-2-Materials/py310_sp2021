@@ -1,3 +1,5 @@
+
+
 people = {1: 'fred', 0: 'harry', 9: 'andy'}
 
 assert sorted(people.keys()) == [0, 1, 9]

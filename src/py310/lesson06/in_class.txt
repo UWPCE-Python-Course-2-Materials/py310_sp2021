@@ -1,0 +1,18 @@
+
+Using an OO approach:
+Think about what classes you may need.
+
+Write a program in which the computer randomly chooses a number between 1 and
+100. The player then tries to guess the number.
+
+The player starts with a score of 100.Every time the player guesses
+incorrectly, give a clue, and reduce the score by 10.
+
+
+When the player guesses correctly, display a message and show the score.
+The game finishes. Allow the player to chose to play the game again.
+
+Extra credit
+
+Keep the total score for all games played for the player.
+Maintain a highest score ever, by player name.

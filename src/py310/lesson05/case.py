@@ -39,17 +39,18 @@ assert todo[1](3, 4) == 7
 better = {
     1: {'prompt': "add it : ", 'func':  adder},
     2: {'prompt': "sub it : ", 'func':  suber},
+    3: {'prompt': "sub it : ", 'func': suber},
 }
 
 
 for key, value in better.items():
     print(f"{key} {value['prompt']}")
 
-#choice = int(input("what do you want? : "))
-choice = 1
+choice = int(input("what do you want? : "))
+#choice = 1
 result = better[choice]['func'](3,4)
 assert result == 7
 
-choice = 2
+#choice = 2
 result = better[choice]['func'](3,4)
 assert result == -1

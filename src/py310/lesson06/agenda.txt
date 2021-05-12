@@ -1,0 +1,13 @@
+Topics
+
+1. Why OO?
+    Awful but typical: https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/
+2. Classes
+3. Methods
+4. Data
+5. Simple example.
+6. Identifying classes
+7. More typical example.
+8. Assignment part 1 - intro and discover classes
+9. Assignment part 2 - coding and testing
+10. Demo.
