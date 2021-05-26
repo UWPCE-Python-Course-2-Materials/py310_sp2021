@@ -1,7 +1,7 @@
 import math
 
 
-class Pizza:
+class Circle:
     def __init__(self, radius, height):
         self.radius = radius
         self.height = height
@@ -12,10 +12,10 @@ class Pizza:
         return math.pi * (radius ** 2)
 
     def compute_volume(self):
-        return self.height * Pizza.compute_area(self.radius) # or self.
+        return self.height * Circle.compute_area(self.radius) # or self.
 
 
-p = Pizza(10, 1)
-print(p.compute_volume())
+c = Circle(10, 1)
+print(c.compute_volume())
 
-print(Pizza.compute_area(12))
+print(Circle.compute_area(12))

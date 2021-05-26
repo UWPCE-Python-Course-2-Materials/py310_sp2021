@@ -1,0 +1,3 @@
+employee,id,deprtment,title,salary,ssn
+"andy",1,"IT",42500,"888-888-888"
+"fred",2,"acct",42000,"777-888-888"

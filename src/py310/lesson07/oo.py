@@ -8,15 +8,15 @@ class Vehicle:
 
 class Car(Vehicle):
     def __init__(self):
-        # super().__init__()
+        super().__init__()
         self.passengers = True
 
-    """def move(self):
-        print("Moving fast")"""
+    def move(self):
+        print("Moving fast")
 
 
 car = Car()
 
 print(car.passengers)
-# print(car.wheels)
-# car.move()
+print(car.wheels)
+car.move()

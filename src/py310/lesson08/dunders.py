@@ -18,4 +18,5 @@ ford = Car("Andy", 35_000)
 print(ford)
 print(str(ford))
 print(repr(ford))
-print(len(ford))
+
+#print(len(ford))

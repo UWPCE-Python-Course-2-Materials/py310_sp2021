@@ -52,3 +52,6 @@ MANIFEST
 .venv*/
 .conda*/
 /Pipfile.lock
+venv/
+*.sublime-workspace
+*.sublime-workspace
