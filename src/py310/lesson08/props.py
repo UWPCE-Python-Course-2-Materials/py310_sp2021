@@ -5,18 +5,18 @@ class Person:
 
     @property
     def full_name(self):
-        return f"{self.first_name} {andy.last_name}"
+        return f"{self.first_name} {self.last_name}"
 
     @property
     def name_for_sort(self):
-        return f"{self.last_name}, {andy.first_name}"
+        return f"{self.last_name}, {self.first_name}"
 
 
 andy = Person('andy', 'miles')
 
 # good python - it's just data
-assert andy.first_name == 'andy' 
-assert andy.last_name == 'miles' 
+assert andy.first_name == 'andy'
+assert andy.last_name == 'miles'
 
 
 # so is this, really
@@ -35,11 +35,11 @@ class PersonB:
 
     @property
     def full_name(self):
-        return f"{self.first_name} {andy._last_name}"
+        return f"{self.first_name} {self._last_name}"
 
     @property
     def name_for_sort(self):
-        return f"{self._last_name}, {andy.first_name}"
+        return f"{self._last_name}, {self.first_name}"
 
     @property
     def last_name(self):

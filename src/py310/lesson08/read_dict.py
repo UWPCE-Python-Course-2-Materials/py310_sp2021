@@ -8,7 +8,7 @@ with open('hrdata.csv') as csvfile:
     for row in hrcsv:
         print(f"row {row_number}")
         row_number += 1
-
+        print(row)
         for key, value in row.items():
             print(f"{key=} {value=}")
 
