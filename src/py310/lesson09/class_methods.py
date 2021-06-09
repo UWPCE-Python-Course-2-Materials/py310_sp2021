@@ -1,6 +1,6 @@
-
 def pretend_to_read(file):
     return f"doing an open {file}..."
+
 
 class Something:
     def __init__(self, data=None):

@@ -14,7 +14,7 @@ def main():
 
     for instance in dictionary_of_classes.values():
         print(instance.magic_number)
-        
+
     pprint.pprint(dictionary_of_classes)
 
 
