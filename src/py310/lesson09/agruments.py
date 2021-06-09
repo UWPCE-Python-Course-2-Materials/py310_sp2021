@@ -1,4 +1,5 @@
 import argparse
+from loguru import logger
 
 
 def main():
@@ -9,7 +10,8 @@ def main():
         with open(args.filename, 'w') as f:
             f.write("hello")
     except Exception as ex:
-        print(f"file error: {ex}")
+        logger.info(f"file error: {ex}")
+
 
 if __name__ == "__main__":
     main()
